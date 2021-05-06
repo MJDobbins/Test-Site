@@ -19,13 +19,20 @@
 
 #Site-Title{
     text-align: center;
+    font-family: cursive;
+    opacity: 50%;
 }
 
 a{
     text-decoration: wavy;
 }
 
-iframe{
-    object-position: center;
+#fortnite{
+    position: absolute;
+    left: 475px;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 60px;
+    opacity: 99%;
 }
 
