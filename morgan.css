@@ -1,0 +1,27 @@
+#test-div{
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    height: 500px;
+    width: 500px;
+}
+
+@keyframes animatedBackground {
+    50% {background-position: center;}
+}
+#valorant   { 
+    background-image: url("orangejustice.gif");
+    background-position: top left;
+    background-repeat: repeat;
+    animation: 20s linear infinite alternate animatedBackground;
+    -webkit-animation: 20s linear infinite alternate animatedBackground ;
+}
+
+#Site-Title{
+    text-align: center;
+}
+
+a{
+    text-decoration: wavy;
+}
+
