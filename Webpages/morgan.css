@@ -25,3 +25,7 @@ a{
     text-decoration: wavy;
 }
 
+iframe{
+    object-position: center;
+}
+
